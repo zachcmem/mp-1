@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #3E0703;
+    text-align: left;
+}
+
+header h1{
+    color: #FFF0C4;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+header p{
+    color: #FFF0C4;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.align{
+    display: table;
+    width: 100%
+}
+
+
+.align nav,.align main {
+    display: table-cell;
+    vertical-align: top;
+}
+
+
+.align nav {
+    background-color: #8C1007;
+    width: 30%;   
+    padding: 10px;
+}
+
+
+.align main {
+    background-color: #660B05;
+    width: 70%;    
+    padding: 10px;
+}
+
+nav ul{
+    list-style: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px 20px;
+}
+
+nav li{
+    margin-bottom: 25px;
+    display: block;
+    background-color: #3E0703;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #FFF0C4;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 50px;
+    
+}
+  
+nav a{
+    color: #FFF0C4;
+    text-decoration: none;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+main img{
+    border-width: 10px;
+    border-style: solid;
+    border-color: #FFF0C4;
+}
+
+main h3{
+    color: #FFF0C4;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#title{
+    color: #FFF0C4;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-size: calc(20px + 0.5vw);;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+#subtitle{
+    margin-bottom: 15px;
+}
+
+
+main p{
+    color: #FFF0C4;
+    text-align: left;
+    font-family:  Helvetica, arial, verdana, sans-serif;
+    font-size: calc(16px + 0.5vw);
+    font-weight: bold;
+}
+
+
+.caption1{
+    display: table;
+    margin-bottom: 20px;
+}
+
+.caption1 img {
+    display: table-cell;
+    vertical-align: top;
+    width: 35vw;   
+    height: auto + 50px; 
+    max-width: 300px;  
+    min-width: 150px;  
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.caption1 p {
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    font-family: Helvetica, arial, verdana, sans-serif;
+    font-size: calc(12px + 0.5vw);
+
+}
+
+.caption2{
+    display: table;
+     margin-top: 25px;
+}
+
+.caption2 img {
+    display: table-cell;
+    vertical-align: top;
+    width: 25vw;   
+    height: auto; 
+    max-width: 240px;  
+    min-width: 150px;  
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.caption2 p {
+    display: table-cell;
+    vertical-align: top;
+    text-align: left;
+    font-family: Helvetica, arial, verdana, sans-serif;
+    font-size: calc(12px + 0.5vw);
+
+
+}
+
+
+footer{
+    background-color: #3E0703;
+}
+
+footer p{
+    color: #FFF0C4;
+    text-align: center;
+}
+
+footer a{
+    color: #FFF0C4;
+}
+
+@media screen and (max-width: 750px){
+    header{
+        text-align: center;
+    }
+    .align{
+        display: block;
+    }
+    .align nav, .align main {
+        display: block;  
+        width: 100%;
+    }
+    nav{
+        max-width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+    nav ul{
+        
+        list-style: none;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 0px;
+    }
+    nav li{
+        display: inline;
+        margin: 0px;
+        padding: 0px;
+    }
+    nav a{
+        display: inline;
+        font-size: 12px;
+        padding: 11px;
+    }
+    #title{
+    text-align: center;
+    }
+
+    #subtitle{
+        text-align: center;
+    }
+    .caption1 {
+        display: block;
+        text-align: center;
+    }
+    .caption1 img {
+        display: block;
+        margin: 0 auto 15px auto;
+        width: 50vw;  
+        height: auto;
+    }
+    .caption1 p {
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+    .caption2 {
+        display: block;
+        text-align: center;
+    }
+    .caption2 img {
+        display: block;
+        margin: 0 auto 15px auto;
+        width: 50vw;  
+        height: auto;
+    }
+    .caption2 p {
+        display: block;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+}
